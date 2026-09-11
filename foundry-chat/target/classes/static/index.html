@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundry Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="chat-container">
+        <!-- Título principal -->
+        <h1>Foundry Chat</h1>
+
+        <!-- Área onde as mensagens do chat são exibidas -->
+        <section id="chat-messages" class="messages-box" aria-live="polite">
+            <div class="message agent-message">
+                <strong>Agente:</strong> Olá! Eu sou o seu agente do Microsoft Foundry. Como posso ajudar?
+            </div>
+        </section>
+
+        <!-- Formulário para envio de mensagens -->
+        <form id="chat-form" class="input-area">
+            <input 
+                type="text" 
+                id="user-input" 
+                placeholder="Digite sua mensagem..." 
+                autocomplete="off"
+                required
+            />
+            <button type="submit" id="send-button">Enviar</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

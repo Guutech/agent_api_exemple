@@ -1,0 +1,5 @@
+com\guutech\foundrychat\FoundryChatApplication.class
+com\guutech\foundrychat\controller\ChatController.class
+com\guutech\foundrychat\service\ChatService.class
+com\guutech\foundrychat\dto\ChatResponse.class
+com\guutech\foundrychat\dto\ChatRequest.class
